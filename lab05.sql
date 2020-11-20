@@ -60,4 +60,4 @@ pkt 2
 SELECT * FROM zasob WHERE rodzaj IS NULL;
 
 pkt 3
-Raczej tak: SELECT distinct rodzaj, nazwa FROM zasob WHERE nazwa LIKE 'Ba%' OR nazwa LIKE '%os' ORDER BY rodzaj;
+ SELECT distinct rodzaj, nazwa FROM zasob WHERE nazwa LIKE 'Ba%' OR nazwa LIKE '%os' ORDER BY rodzaj;
